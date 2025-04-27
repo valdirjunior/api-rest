@@ -10,8 +10,8 @@ O sistema simula um gerenciamento de **produtos** e **categorias** de uma loja d
 Clone o projeto e acesse o diretório:
 
 ```bash
-git clone <link-do-repositorio>
-cd nome-do-projeto
+git clone [<link-do-repositorio>](https://github.com/valdirjunior/api-rest.git)
+cd api-rest
 ```
 
 Instale as dependências:
