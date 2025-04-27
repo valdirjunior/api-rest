@@ -10,7 +10,7 @@ O sistema simula um gerenciamento de **produtos** e **categorias** de uma loja d
 Clone o projeto e acesse o diretório:
 
 ```bash
-git clone [<link-do-repositorio>](https://github.com/valdirjunior/api-rest.git)
+git clone https://github.com/valdirjunior/api-rest.git
 cd api-rest
 ```
 
