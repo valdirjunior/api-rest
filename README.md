@@ -50,7 +50,7 @@ O servidor estará rodando em:
 {
     "nome": "Webcam Full HD",
     "preco": 250.00,
-    "categoriaId": 3
+    "categoriaID": 3
 }
 ```
 
@@ -80,7 +80,7 @@ O servidor estará rodando em:
 - **Filtro** de produtos por nome (`?nome=notebook`).
 - **Ordenação** dos produtos (`?sortBy=preco&order=asc`).
 - **Paginação** (`?page=1&limit=5`).
-- **Filtros combinados** (`/produtos?categoriaId=3&sortBy=nome&order=asc`).
+- **Filtros combinados** (`/produtos?categoriaID=3&sortBy=nome&order=asc`).
 
 ---
 
