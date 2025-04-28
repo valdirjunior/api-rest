@@ -38,11 +38,11 @@ O servidor estará rodando em:
 
 | Método | Rota                  | Descrição                       |
 |:------:|:---------------------- |:------------------------------- |
-| GET    | `/produtos`             | Lista todos os produtos         |
-| GET    | `/produtos/:id`         | Busca um produto por ID         |
-| POST   | `/produtos`             | Cria um novo produto            |
-| PUT    | `/produtos/:id`         | Atualiza um produto existente   |
-| DELETE | `/produtos/:id`         | Remove um produto               |
+| GET    | `/api/v1/produtos`             | Lista todos os produtos         |
+| GET    | `/api/v1/produtos/:id`         | Busca um produto por ID         |
+| POST   | `/api/v1/produtos`             | Cria um novo produto            |
+| PUT    | `/api/v1/produtos/:id`         | Atualiza um produto existente   |
+| DELETE | `/api/v1/produtos/:id`         | Remove um produto               |
 
 **Exemplo de corpo para POST / PUT:**
 
@@ -60,11 +60,11 @@ O servidor estará rodando em:
 
 | Método | Rota                  | Descrição                       |
 |:------:|:---------------------- |:------------------------------- |
-| GET    | `/categorias`           | Lista todas as categorias       |
-| GET    | `/categorias/:id`       | Busca uma categoria por ID      |
-| POST   | `/categorias`           | Cria uma nova categoria         |
-| PUT    | `/categorias/:id`       | Atualiza uma categoria          |
-| DELETE | `/categorias/:id`       | Remove uma categoria            |
+| GET    | `/api/v1/categorias`           | Lista todas as categorias       |
+| GET    | `/api/v1/categorias/:id`       | Busca uma categoria por ID      |
+| POST   | `/api/v1/categorias`           | Cria uma nova categoria         |
+| PUT    | `/api/v1/categorias/:id`       | Atualiza uma categoria          |
+| DELETE | `/api/v1/categorias/:id`       | Remove uma categoria            |
 
 **Exemplo de corpo para POST / PUT:**
 
