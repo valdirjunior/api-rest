@@ -9,8 +9,8 @@ app.use(cors());
 app.use(express.json());
 
 //rotas
-app.use('/produtos', produtosRouter);
-app.use('/categorias', categoriasRouter);
+app.use('/api/v1/produtos', produtosRouter);
+app.use('/api/v1/categorias', categoriasRouter);
 
 //rota principal
 app.get('/', (req, res) => {
